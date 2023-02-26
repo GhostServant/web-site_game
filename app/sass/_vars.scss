@@ -1,0 +1,42 @@
+$bg-1:#000000;
+$bg-2:#57B8FF;
+$bg-3:#FDD04A;
+$bg-4:#2A313C;
+$bg-5:#222730;
+$text-color1:#999999;
+$text-color2:#555555;
+$text-color3:#DFDFDF;
+$text-color4:#80858F;
+
+
+%roboto-400{
+  font-family: 'Roboto-Regular',sans-serif;
+  font-weight: 400;
+}
+
+%orbitron-400{
+  font-family: 'Orbitron-Regular',sans-serif;
+  font-weight: 400;
+}
+
+%orbitron-700{
+  font-family: 'Orbitron-Bold',sans-serif;
+  font-weight: 700;
+}
+
+
+%btn{
+  @extend %orbitron-400;
+  padding: 16px 31px;
+  border: 1px solid #FFFFFF;
+  background-color: $bg-2;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  transition: all .3s;
+  &:hover{
+    cursor: pointer;
+    color: $bg-2;
+    background: #FFFFFF;
+  }
+}

@@ -1,0 +1,32 @@
+body,
+html{
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-size: 18px;
+  line-height: 28px;
+  @extend %orbitron-400;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  max-width: 1395px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.main{
+  flex-grow: 1;
+}
+
+.wrapper{
+  max-width: 1470px;
+  margin: 0 auto;
+}
+
+
